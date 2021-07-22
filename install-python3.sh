@@ -1,5 +1,5 @@
 #!/bin/bash
-VER=3.9
+VER=$1
 FULL_VER=$VER.0
 curl -O https://www.python.org/ftp/python/$FULL_VER/Python-$FULL_VER.tgz
 mkdir -p $HOME/usr/local
